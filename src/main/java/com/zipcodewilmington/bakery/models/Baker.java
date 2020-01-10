@@ -12,11 +12,8 @@ public class Baker {
     @Id
     @GeneratedValue
     private Long id;
-
     private String name;
-
     private String employeeId;
-
     private String specialty;
 
     public Baker() {
